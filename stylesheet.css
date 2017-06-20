@@ -12,6 +12,9 @@ table {
 td {
     border: 2px black solid;
 }
+#panther {
+	text-align: center;
+}
 .corner {
     height: 100px;
     width: 100px;
@@ -22,6 +25,15 @@ td {
 .go {
 	transform: rotate(90deg);
 	transform-origin: left top 0;
+}
+.jail {
+	
+}
+.tojail {
+	
+}
+.freeparking {
+	
 }
 .vertical, .horizontal {
 	padding: 0px;
@@ -46,10 +58,34 @@ td {
 	width: auto;
 	height: 100%;
 }
+.purple {
+	border-left: #CC0099 solid 20px;
+	width: auto;
+	height: 100%;
+}
+.orange {
+	border-left: orange solid 20px;
+	width: auto;
+	height: 100%;
+}
+.yellow {
+	border-top: yellow solid 20px;
+	width: auto;
+	height: 50%;
+}
+.red {
+	border-top: red solid 20px;
+	width: auto;
+	height: 50%;
+}
 .topspace {
 	height: 50%;
 }
 .leftspace {
 	height: 50%;
 	float: left;
+}
+.rightspace {
+	height: 50%;
+	float: right;
 }

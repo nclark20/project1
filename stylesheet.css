@@ -1,16 +1,16 @@
-body {
-    text-align: center;
-	
-}
 table {
     background-color: #CCFFFF;
     border-collapse: collapse;
-    height: 700px;
-    width: 700px;
+    height: 900px;
+    width: 900px;
     margin: auto;
+	table-layout: fixed;
 }
 td {
     border: 2px black solid;
+}
+h1, h4, h5 {
+	text-align: center;
 }
 #panther {
 	text-align: center;
@@ -18,7 +18,7 @@ td {
 .top {
 	height: 100px;
 	width: 60px;
-	padding-top: 5%;
+	padding-top: 30px;
 	padding-bottom: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -36,7 +36,7 @@ td {
 	width: 100px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	padding-left: 6%;
+	padding-left: 0px;
 	padding-right: 0px;
 }
 .right {
@@ -45,7 +45,7 @@ td {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	padding-right: 6%;
+	padding-right: 0px;
 }
 .corner {
     height: 100px;
@@ -55,8 +55,7 @@ td {
 	font-weight: bold;
 }
 .go {
-	transform: rotate(90deg);
-	transform-origin: left top 0;
+	
 }
 .jail {
 	
@@ -107,8 +106,12 @@ td {
 	width: auto;
 	height: 50%;
 }
-.space {
+.topspace {
 	height: 50%;
+	text-align: center;
+}
+.bottomspace {
+	height: 35%;
 	text-align: center;
 }
 .leftspace {

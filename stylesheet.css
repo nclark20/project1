@@ -15,6 +15,38 @@ td {
 #panther {
 	text-align: center;
 }
+.top {
+	height: 100px;
+	width: 60px;
+	padding-top: 5%;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.bottom {
+	height: 100px;
+	width: 60px;
+	padding-top: 0px;
+	padding-bottom: 2%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.left {
+	height: 60px;
+	width: 100px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 6%;
+	padding-right: 0px;
+}
+.right {
+	height: 60px;
+	width: 100px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 6%;
+}
 .corner {
     height: 100px;
     width: 100px;
@@ -34,9 +66,6 @@ td {
 }
 .freeparking {
 	
-}
-.vertical, .horizontal {
-	padding: 0px;
 }
 .brown {
     border-bottom: brown solid 20px;
@@ -78,14 +107,17 @@ td {
 	width: auto;
 	height: 50%;
 }
-.topspace {
+.space {
 	height: 50%;
+	text-align: center;
 }
 .leftspace {
 	height: 50%;
 	float: left;
+	text-align: center;
 }
 .rightspace {
 	height: 50%;
 	float: right;
+	text-align: center;
 }

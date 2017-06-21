@@ -17,7 +17,7 @@ h1, h4, h5 {
 }
 .top {
 	height: 100px;
-	width: 60px;
+	width: 100px;
 	padding-top: 30px;
 	padding-bottom: 0px;
 	padding-left: 0px;
@@ -123,4 +123,8 @@ h1, h4, h5 {
 	height: 50%;
 	float: right;
 	text-align: center;
+}
+#logo{
+    width: 500px;
+    height: auto;
 }

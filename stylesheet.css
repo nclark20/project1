@@ -76,18 +76,6 @@ h1, h4, h5 {
 	font-size: 20px;
 	font-weight: bold;
 }
-.go {
-	
-}
-.jail {
-	
-}
-.tojail {
-	
-}
-.freeparking {
-	
-}
 .brown {
     border-bottom: brown solid 20px;
 	width: auto;
@@ -144,9 +132,6 @@ h1, h4, h5 {
 	float: right;
 	text-align: center;
 }
-.textcenterbottom {
-	
-}
 .textcenterleft {
 	padding-left: 15px;
 }
@@ -160,7 +145,6 @@ h1, h4, h5 {
 	padding-right: 30px;
 }
 a {
-
     font-size:30px;
     Margin: 10px;
 }
